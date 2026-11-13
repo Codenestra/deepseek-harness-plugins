@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Runaway Watchdog",
+    "description": "Harness-level spend circuit breaker: detects identical-call loops, error storms, token/spend velocity and subagent recursion, then deterministically blocks or trips a circuit. Durable audit ledger, live dashboard, and a built-in scientific self-test."
+  }
+}

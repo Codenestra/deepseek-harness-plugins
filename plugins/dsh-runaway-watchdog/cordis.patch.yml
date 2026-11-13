@@ -1,0 +1,21 @@
+- insert:
+    - id: runaway-watchdog
+      name: '@local/dsh-runaway-watchdog'
+      config:
+        mode: enforce
+        repeatWarnThreshold: 3
+        repeatBlockThreshold: 5
+        blockSuccessRepeats: false
+        errorWindow: 12
+        errorMinSamples: 6
+        errorRateThreshold: 0.8
+        velocityWindowMs: 60000
+        tokenVelocityLimit: 200000
+        spendVelocityLimit: 30
+        currency: CNY
+        usdToCny: 7.2
+        circuitCooldownMs: 60000
+        maxDepth: 8
+        maxFanout: 16
+        enableTestTools: false
+        auditRetention: 2000
