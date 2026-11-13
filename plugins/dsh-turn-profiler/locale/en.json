@@ -1,0 +1,5 @@
+{
+  "panel": "Turn Profiler",
+  "title": "Turn Profiler",
+  "description": "Per-turn latency waterfall, token flow, and prompt-cache diagnostics"
+}

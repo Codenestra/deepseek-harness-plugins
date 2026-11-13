@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Storage Doctor",
+    "description": "Disk health visualization and retention-based safe cleanup for ~/.dsh (preview, confirm, trash, restore). Read-only scans; cleanup never deletes permanently."
+  },
+  "panel": "Storage Doctor"
+}

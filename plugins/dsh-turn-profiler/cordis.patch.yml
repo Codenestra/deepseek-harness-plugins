@@ -1,0 +1,4 @@
+- insert:
+    - id: turn-profiler
+      name: '@local/dsh-turn-profiler'
+      config: {}

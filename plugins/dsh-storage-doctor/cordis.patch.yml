@@ -1,0 +1,4 @@
+- insert:
+    - id: storage-doctor
+      name: '@local/dsh-storage-doctor'
+      config: {}

@@ -1,0 +1,69 @@
+{
+  "name": "@local/dsh-project-hub",
+  "version": "0.1.0",
+  "description": "Cross-workspace project overview, global search, project notes and quick switching for DeepSeek Harness",
+  "type": "module",
+  "icon": "./icon.svg",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json",
+    "./lib/*": "./lib/*"
+  },
+  "files": [
+    "client.js",
+    "cordis.patch.yml",
+    "icon.svg",
+    "index.js",
+    "lib/*.js",
+    "locale/*.json",
+    "README.md",
+    "README.zh.md",
+    "INSTALL.zh.md"
+  ],
+  "engines": {
+    "node": ">=22.19.0"
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "~4.0.4"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-api-remotes",
+        "@deepseek-ai/dsh-api-session-controller",
+        "@deepseek-ai/dsh-api-workspace-controller",
+        "@deepseek-ai/dsh-client-connection",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-conversation",
+        "@deepseek-ai/dsh-client-ui-layout",
+        "@deepseek-ai/dsh-client-ui-sidebar",
+        "@deepseek-ai/dsh-client-ui-workspace",
+        "@deepseek-ai/dsh-client-ui-primitives"
+      ]
+    }
+  },
+  "scripts": {
+    "check": "node --check index.js && node --check client.js"
+  },
+  "author": "Codenestra",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Codenestra/deepseek-harness-plugins.git",
+    "directory": "plugins/dsh-project-hub"
+  },
+  "homepage": "https://github.com/Codenestra/deepseek-harness-plugins/tree/main/plugins/dsh-project-hub",
+  "bugs": {
+    "url": "https://github.com/Codenestra/deepseek-harness-plugins/issues"
+  },
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "dsh-project-hub"
+  ]
+}

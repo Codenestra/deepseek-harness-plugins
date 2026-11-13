@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+  <!-- time axis -->
+  <path d="M3 4.2v15.6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+  <!-- lane 1: wait (outline) then decode (solid) -->
+  <rect x="5" y="4.8" width="4" height="3.2" rx="1" stroke="currentColor" stroke-width="1.3"/>
+  <rect x="9.6" y="4.8" width="8.6" height="3.2" rx="1" fill="currentColor"/>
+  <!-- lane 2: wait, decode, tool -->
+  <rect x="7" y="10.4" width="3" height="3.2" rx="1" stroke="currentColor" stroke-width="1.3"/>
+  <rect x="10.6" y="10.4" width="5.2" height="3.2" rx="1" fill="currentColor"/>
+  <rect x="16.6" y="10.4" width="2.8" height="3.2" rx="1" fill="currentColor" opacity="0.55"/>
+  <!-- lane 3 -->
+  <rect x="6" y="16" width="5" height="3.2" rx="1" stroke="currentColor" stroke-width="1.3"/>
+  <rect x="11.6" y="16" width="9.4" height="3.2" rx="1" fill="currentColor"/>
+  <!-- cache boundary marker -->
+  <path d="M14.6 3.2v17.6" stroke="currentColor" stroke-width="1.1" stroke-dasharray="2 2.2" opacity="0.75"/>
+</svg>
