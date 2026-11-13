@@ -10,6 +10,7 @@ Codenestra 维护的 **DeepSeek Harness（DSH）插件仓库**，提供插件源
 | [存储医生](plugins/dsh-storage-doctor) | 0.1.0 | 磁盘占用扫描、增长趋势、清理预览、回收站与还原 | [ZIP](https://github.com/Codenestra/deepseek-harness-plugins/releases/download/v0.1.0/dsh-storage-doctor-0.1.0.zip) | [说明](plugins/dsh-storage-doctor/INSTALL.zh.md) |
 | [回合级性能剖析器](plugins/dsh-turn-profiler) | 0.1.0 | 时延瀑布图、实时指标、token 与缓存诊断、JSON 导出 | [ZIP](https://github.com/Codenestra/deepseek-harness-plugins/releases/download/v0.1.0/dsh-turn-profiler-0.1.0.zip) | [说明](plugins/dsh-turn-profiler/INSTALL.zh.md) |
 | [失控看门狗](plugins/dsh-runaway-watchdog) | 1.2.1 | 重复调用检测、花费与错误熔断、子代理限制、审计记录 | [ZIP](https://github.com/Codenestra/deepseek-harness-plugins/releases/download/dsh-runaway-watchdog-v1.2.1/dsh-runaway-watchdog-1.2.1-release.zip) | [说明](plugins/dsh-runaway-watchdog/INSTALL.zh.md) |
+| [用量中心](plugins/dsh-usage-center) | 1.1.0 | Token 用量统计、花费估算、预算进度、交互图表与数据导出 | [ZIP](https://github.com/Codenestra/deepseek-harness-plugins/releases/download/dsh-usage-center-v1.1.0/usage-center-1.1.0.zip) | [说明](plugins/dsh-usage-center/INSTALL.zh.md) |
 
 ## 安装
 
@@ -27,10 +28,11 @@ plugins/
   dsh-storage-doctor/
   dsh-turn-profiler/
   dsh-runaway-watchdog/
+  dsh-usage-center/
 ```
 
 每个目录是独立的 DSH bundle，包含 `package.json`、`cordis.patch.yml`、host/client JavaScript 源码、语言文件、图标与说明。
 
 ## English
 
-Plugins for DeepSeek Harness: **Project Hub**, **Storage Doctor**, **Turn Profiler**, and **Runaway Watchdog**. Download installable `.tgz` bundles or ZIPs with Chinese installation guides from [Releases](https://github.com/Codenestra/deepseek-harness-plugins/releases). Source code is organized by plugin in `plugins/`.
+Plugins for DeepSeek Harness: **Project Hub**, **Storage Doctor**, **Turn Profiler**, **Runaway Watchdog**, and **Usage Center**. Download installable `.tgz` bundles or ZIPs with Chinese installation guides from [Releases](https://github.com/Codenestra/deepseek-harness-plugins/releases). Source code is organized by plugin in `plugins/`.

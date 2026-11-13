@@ -1,0 +1,4 @@
+- insert:
+    - id: usage-center
+      name: '@local/dsh-usage-center'
+      config: {}
