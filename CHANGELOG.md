@@ -1,3 +1,41 @@
+## 插件工作台 0.1.0
+
+DeepSeek Harness 的脚手架生成、运行时探索、本地安装管理与插件声明校验插件。
+
+### 功能
+
+- 脚手架生成：配置包名、标题、依赖和功能模块，预览文件树后生成插件工程。
+- 运行时探索：查看宿主状态、服务依赖、客户端 Slot、侧栏排序、Remote 命名空间和模块图。
+- 安装管理：安装或卸载本地工程，查看注册、启用和加载状态。
+- 声明校验：检查结构、依赖、版本兼容、bundle patch 和入口，按文件展示通过、警告与错误。
+
+### 下载与安装
+
+下载 `dsh-plugin-devkit-0.1.0.zip`，解压后得到 `.tgz` 安装包和中文安装使用说明。通过 DSH 插件管理器安装 `local-dsh-plugin-devkit-0.1.0.tgz`，启用后从侧栏「插件工作台」进入。
+
+[查看源码与使用说明](https://github.com/Codenestra/deepseek-harness-plugins/tree/main/plugins/dsh-plugin-devkit)。文件校验值见 `SHA256SUMS.txt`。
+
+---
+
+## 插件医生 0.1.0
+
+DeepSeek Harness 的插件健康诊断、冲突检查、版本兼容、安装历史与禁用恢复插件。
+
+### 功能
+
+- 健康总览：汇总运行状态、依赖和 bundle 注册情况，定位异常插件。
+- 冲突与兼容：检查 Slot 的 id、order、key 与样式归属，比较 peerDependencies 和实际版本。
+- 安装历史：查看插件管理操作时间线和插件数据目录占用。
+- 操作审计：禁用或恢复插件，保留操作记录，导出 JSON 诊断报告。
+
+### 下载与安装
+
+下载 `dsh-plugin-doctor-0.1.0.zip`，解压后得到 `.tgz` 安装包和中文安装使用说明。通过 DSH 插件管理器安装 `local-dsh-plugin-doctor-0.1.0.tgz`，启用后从侧栏「插件医生」进入。
+
+[查看源码与使用说明](https://github.com/Codenestra/deepseek-harness-plugins/tree/main/plugins/dsh-plugin-doctor)。文件校验值见 `SHA256SUMS.txt`。
+
+---
+
 ## 用量中心 1.1.0
 
 DeepSeek Harness 的 Token 用量统计与可视化插件，汇总供应商返回的用量数据，并提供花费估算、预算进度和交互图表。

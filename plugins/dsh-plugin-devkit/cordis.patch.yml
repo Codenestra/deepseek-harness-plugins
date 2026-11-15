@@ -1,0 +1,4 @@
+- insert:
+    - id: plugin-devkit
+      name: '@local/dsh-plugin-devkit'
+      config: {}

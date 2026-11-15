@@ -1,0 +1,5 @@
+{
+  "panel": "Plugin Doctor",
+  "title": "Plugin Doctor",
+  "description": "Plugin-stack health diagnostics: runtime status, conflicts, compatibility matrix, install history, safe disable/restore"
+}

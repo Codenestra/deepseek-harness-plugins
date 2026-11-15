@@ -11,6 +11,8 @@ Codenestra 维护的 **DeepSeek Harness（DSH）插件仓库**，提供插件源
 | [回合级性能剖析器](plugins/dsh-turn-profiler) | 0.1.0 | 时延瀑布图、实时指标、token 与缓存诊断、JSON 导出 | [ZIP](https://github.com/Codenestra/deepseek-harness-plugins/releases/download/v0.1.0/dsh-turn-profiler-0.1.0.zip) | [说明](plugins/dsh-turn-profiler/INSTALL.zh.md) |
 | [失控看门狗](plugins/dsh-runaway-watchdog) | 1.2.1 | 重复调用检测、花费与错误熔断、子代理限制、审计记录 | [ZIP](https://github.com/Codenestra/deepseek-harness-plugins/releases/download/dsh-runaway-watchdog-v1.2.1/dsh-runaway-watchdog-1.2.1-release.zip) | [说明](plugins/dsh-runaway-watchdog/INSTALL.zh.md) |
 | [用量中心](plugins/dsh-usage-center) | 1.1.0 | Token 用量统计、花费估算、预算进度、交互图表与数据导出 | [ZIP](https://github.com/Codenestra/deepseek-harness-plugins/releases/download/dsh-usage-center-v1.1.0/usage-center-1.1.0.zip) | [说明](plugins/dsh-usage-center/INSTALL.zh.md) |
+| [插件工作台](plugins/dsh-plugin-devkit) | 0.1.0 | 脚手架生成、运行时探索、本地安装管理与插件声明校验 | [ZIP](https://github.com/Codenestra/deepseek-harness-plugins/releases/download/dsh-plugin-devkit-v0.1.0/dsh-plugin-devkit-0.1.0.zip) | [说明](plugins/dsh-plugin-devkit/INSTALL.zh.md) |
+| [插件医生](plugins/dsh-plugin-doctor) | 0.1.0 | 插件健康诊断、冲突检查、版本兼容、安装历史与禁用恢复 | [ZIP](https://github.com/Codenestra/deepseek-harness-plugins/releases/download/dsh-plugin-doctor-v0.1.0/dsh-plugin-doctor-0.1.0.zip) | [说明](plugins/dsh-plugin-doctor/INSTALL.zh.md) |
 
 ## 安装
 
@@ -29,10 +31,12 @@ plugins/
   dsh-turn-profiler/
   dsh-runaway-watchdog/
   dsh-usage-center/
+  dsh-plugin-devkit/
+  dsh-plugin-doctor/
 ```
 
 每个目录是独立的 DSH bundle，包含 `package.json`、`cordis.patch.yml`、host/client JavaScript 源码、语言文件、图标与说明。
 
 ## English
 
-Plugins for DeepSeek Harness: **Project Hub**, **Storage Doctor**, **Turn Profiler**, **Runaway Watchdog**, and **Usage Center**. Download installable `.tgz` bundles or ZIPs with Chinese installation guides from [Releases](https://github.com/Codenestra/deepseek-harness-plugins/releases). Source code is organized by plugin in `plugins/`.
+Plugins for DeepSeek Harness: **Project Hub**, **Storage Doctor**, **Turn Profiler**, **Runaway Watchdog**, **Usage Center**, **Plugin DevKit**, and **Plugin Doctor**. Download installable `.tgz` bundles or ZIPs with Chinese installation guides from [Releases](https://github.com/Codenestra/deepseek-harness-plugins/releases). Source code is organized by plugin in `plugins/`.

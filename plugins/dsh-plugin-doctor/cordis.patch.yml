@@ -1,0 +1,4 @@
+- insert:
+    - id: plugin-doctor
+      name: '@local/dsh-plugin-doctor'
+      config: {}
